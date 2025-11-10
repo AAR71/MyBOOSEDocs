@@ -222,6 +222,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.commands.MoveToCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.commands.MoveToCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.commands.MoveToCommand",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.commands.MoveToCommand.yml\" sourcestartlinenumber=\"1\">Handles the moveto command, it moves the cursor wuthout drawing anything\nUsage: moveto 200,100</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BOOSEapp.commands.PenColourCommand.yml",
       "output": {
         ".html": {

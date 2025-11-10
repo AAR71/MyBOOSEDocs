@@ -1481,6 +1481,89 @@ references:
   isSpec: "True"
   fullName: BOOSEapp.commands.DrawToCommand.Set
   nameWithType: DrawToCommand.Set
+- uid: BOOSEapp.commands.MoveToCommand
+  name: MoveToCommand
+  href: api/BOOSEapp.commands.MoveToCommand.html
+  commentId: T:BOOSEapp.commands.MoveToCommand
+  fullName: BOOSEapp.commands.MoveToCommand
+  nameWithType: MoveToCommand
+- uid: BOOSEapp.commands.MoveToCommand.#ctor(BOOSE.ICanvas)
+  name: MoveToCommand(ICanvas)
+  href: api/BOOSEapp.commands.MoveToCommand.html#BOOSEapp_commands_MoveToCommand__ctor_BOOSE_ICanvas_
+  commentId: M:BOOSEapp.commands.MoveToCommand.#ctor(BOOSE.ICanvas)
+  name.vb: New(ICanvas)
+  fullName: BOOSEapp.commands.MoveToCommand.MoveToCommand(BOOSE.ICanvas)
+  fullName.vb: BOOSEapp.commands.MoveToCommand.New(BOOSE.ICanvas)
+  nameWithType: MoveToCommand.MoveToCommand(ICanvas)
+  nameWithType.vb: MoveToCommand.New(ICanvas)
+- uid: BOOSEapp.commands.MoveToCommand.#ctor*
+  name: MoveToCommand
+  href: api/BOOSEapp.commands.MoveToCommand.html#BOOSEapp_commands_MoveToCommand__ctor_
+  commentId: Overload:BOOSEapp.commands.MoveToCommand.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEapp.commands.MoveToCommand.MoveToCommand
+  fullName.vb: BOOSEapp.commands.MoveToCommand.New
+  nameWithType: MoveToCommand.MoveToCommand
+  nameWithType.vb: MoveToCommand.New
+- uid: BOOSEapp.commands.MoveToCommand.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/BOOSEapp.commands.MoveToCommand.html#BOOSEapp_commands_MoveToCommand_CheckParameters_System_String___
+  commentId: M:BOOSEapp.commands.MoveToCommand.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSEapp.commands.MoveToCommand.CheckParameters(string[])
+  fullName.vb: BOOSEapp.commands.MoveToCommand.CheckParameters(String())
+  nameWithType: MoveToCommand.CheckParameters(string[])
+  nameWithType.vb: MoveToCommand.CheckParameters(String())
+- uid: BOOSEapp.commands.MoveToCommand.CheckParameters*
+  name: CheckParameters
+  href: api/BOOSEapp.commands.MoveToCommand.html#BOOSEapp_commands_MoveToCommand_CheckParameters_
+  commentId: Overload:BOOSEapp.commands.MoveToCommand.CheckParameters
+  isSpec: "True"
+  fullName: BOOSEapp.commands.MoveToCommand.CheckParameters
+  nameWithType: MoveToCommand.CheckParameters
+- uid: BOOSEapp.commands.MoveToCommand.Compile
+  name: Compile()
+  href: api/BOOSEapp.commands.MoveToCommand.html#BOOSEapp_commands_MoveToCommand_Compile
+  commentId: M:BOOSEapp.commands.MoveToCommand.Compile
+  fullName: BOOSEapp.commands.MoveToCommand.Compile()
+  nameWithType: MoveToCommand.Compile()
+- uid: BOOSEapp.commands.MoveToCommand.Compile*
+  name: Compile
+  href: api/BOOSEapp.commands.MoveToCommand.html#BOOSEapp_commands_MoveToCommand_Compile_
+  commentId: Overload:BOOSEapp.commands.MoveToCommand.Compile
+  isSpec: "True"
+  fullName: BOOSEapp.commands.MoveToCommand.Compile
+  nameWithType: MoveToCommand.Compile
+- uid: BOOSEapp.commands.MoveToCommand.Execute
+  name: Execute()
+  href: api/BOOSEapp.commands.MoveToCommand.html#BOOSEapp_commands_MoveToCommand_Execute
+  commentId: M:BOOSEapp.commands.MoveToCommand.Execute
+  fullName: BOOSEapp.commands.MoveToCommand.Execute()
+  nameWithType: MoveToCommand.Execute()
+- uid: BOOSEapp.commands.MoveToCommand.Execute*
+  name: Execute
+  href: api/BOOSEapp.commands.MoveToCommand.html#BOOSEapp_commands_MoveToCommand_Execute_
+  commentId: Overload:BOOSEapp.commands.MoveToCommand.Execute
+  isSpec: "True"
+  fullName: BOOSEapp.commands.MoveToCommand.Execute
+  nameWithType: MoveToCommand.Execute
+- uid: BOOSEapp.commands.MoveToCommand.Set(BOOSE.StoredProgram,System.String)
+  name: Set(StoredProgram, string)
+  href: api/BOOSEapp.commands.MoveToCommand.html#BOOSEapp_commands_MoveToCommand_Set_BOOSE_StoredProgram_System_String_
+  commentId: M:BOOSEapp.commands.MoveToCommand.Set(BOOSE.StoredProgram,System.String)
+  name.vb: Set(StoredProgram, String)
+  fullName: BOOSEapp.commands.MoveToCommand.Set(BOOSE.StoredProgram, string)
+  fullName.vb: BOOSEapp.commands.MoveToCommand.Set(BOOSE.StoredProgram, String)
+  nameWithType: MoveToCommand.Set(StoredProgram, string)
+  nameWithType.vb: MoveToCommand.Set(StoredProgram, String)
+- uid: BOOSEapp.commands.MoveToCommand.Set*
+  name: Set
+  href: api/BOOSEapp.commands.MoveToCommand.html#BOOSEapp_commands_MoveToCommand_Set_
+  commentId: Overload:BOOSEapp.commands.MoveToCommand.Set
+  isSpec: "True"
+  fullName: BOOSEapp.commands.MoveToCommand.Set
+  nameWithType: MoveToCommand.Set
 - uid: BOOSEapp.commands.PenColourCommand
   name: PenColourCommand
   href: api/BOOSEapp.commands.PenColourCommand.html

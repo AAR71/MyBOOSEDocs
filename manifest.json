@@ -138,20 +138,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BOOSEapp.MoveToCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BOOSEapp.MoveToCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "BOOSEapp.MoveToCommand",
-      "Summary": "<p sourcefile=\"api/BOOSEapp.MoveToCommand.yml\" sourcestartlinenumber=\"1\">Handles the moveto command, it moves the cursor wuthout drawing anything\nUsage: moveto 200,100</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/BOOSEapp.MyCommandFactory.yml",
       "output": {
         ".html": {
@@ -289,16 +275,6 @@
       "IsMRef": true,
       "Title": "BOOSEapp",
       "Summary": null
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "api/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "api/index.html"
-        }
-      },
-      "version": ""
     },
     {
       "type": "Toc",

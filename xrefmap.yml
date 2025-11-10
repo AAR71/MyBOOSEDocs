@@ -1067,89 +1067,6 @@ references:
   isSpec: "True"
   fullName: BOOSEapp.ICommandHandler.Set
   nameWithType: ICommandHandler.Set
-- uid: BOOSEapp.MoveToCommand
-  name: MoveToCommand
-  href: api/BOOSEapp.MoveToCommand.html
-  commentId: T:BOOSEapp.MoveToCommand
-  fullName: BOOSEapp.MoveToCommand
-  nameWithType: MoveToCommand
-- uid: BOOSEapp.MoveToCommand.#ctor(BOOSE.ICanvas)
-  name: MoveToCommand(ICanvas)
-  href: api/BOOSEapp.MoveToCommand.html#BOOSEapp_MoveToCommand__ctor_BOOSE_ICanvas_
-  commentId: M:BOOSEapp.MoveToCommand.#ctor(BOOSE.ICanvas)
-  name.vb: New(ICanvas)
-  fullName: BOOSEapp.MoveToCommand.MoveToCommand(BOOSE.ICanvas)
-  fullName.vb: BOOSEapp.MoveToCommand.New(BOOSE.ICanvas)
-  nameWithType: MoveToCommand.MoveToCommand(ICanvas)
-  nameWithType.vb: MoveToCommand.New(ICanvas)
-- uid: BOOSEapp.MoveToCommand.#ctor*
-  name: MoveToCommand
-  href: api/BOOSEapp.MoveToCommand.html#BOOSEapp_MoveToCommand__ctor_
-  commentId: Overload:BOOSEapp.MoveToCommand.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: BOOSEapp.MoveToCommand.MoveToCommand
-  fullName.vb: BOOSEapp.MoveToCommand.New
-  nameWithType: MoveToCommand.MoveToCommand
-  nameWithType.vb: MoveToCommand.New
-- uid: BOOSEapp.MoveToCommand.CheckParameters(System.String[])
-  name: CheckParameters(string[])
-  href: api/BOOSEapp.MoveToCommand.html#BOOSEapp_MoveToCommand_CheckParameters_System_String___
-  commentId: M:BOOSEapp.MoveToCommand.CheckParameters(System.String[])
-  name.vb: CheckParameters(String())
-  fullName: BOOSEapp.MoveToCommand.CheckParameters(string[])
-  fullName.vb: BOOSEapp.MoveToCommand.CheckParameters(String())
-  nameWithType: MoveToCommand.CheckParameters(string[])
-  nameWithType.vb: MoveToCommand.CheckParameters(String())
-- uid: BOOSEapp.MoveToCommand.CheckParameters*
-  name: CheckParameters
-  href: api/BOOSEapp.MoveToCommand.html#BOOSEapp_MoveToCommand_CheckParameters_
-  commentId: Overload:BOOSEapp.MoveToCommand.CheckParameters
-  isSpec: "True"
-  fullName: BOOSEapp.MoveToCommand.CheckParameters
-  nameWithType: MoveToCommand.CheckParameters
-- uid: BOOSEapp.MoveToCommand.Compile
-  name: Compile()
-  href: api/BOOSEapp.MoveToCommand.html#BOOSEapp_MoveToCommand_Compile
-  commentId: M:BOOSEapp.MoveToCommand.Compile
-  fullName: BOOSEapp.MoveToCommand.Compile()
-  nameWithType: MoveToCommand.Compile()
-- uid: BOOSEapp.MoveToCommand.Compile*
-  name: Compile
-  href: api/BOOSEapp.MoveToCommand.html#BOOSEapp_MoveToCommand_Compile_
-  commentId: Overload:BOOSEapp.MoveToCommand.Compile
-  isSpec: "True"
-  fullName: BOOSEapp.MoveToCommand.Compile
-  nameWithType: MoveToCommand.Compile
-- uid: BOOSEapp.MoveToCommand.Execute
-  name: Execute()
-  href: api/BOOSEapp.MoveToCommand.html#BOOSEapp_MoveToCommand_Execute
-  commentId: M:BOOSEapp.MoveToCommand.Execute
-  fullName: BOOSEapp.MoveToCommand.Execute()
-  nameWithType: MoveToCommand.Execute()
-- uid: BOOSEapp.MoveToCommand.Execute*
-  name: Execute
-  href: api/BOOSEapp.MoveToCommand.html#BOOSEapp_MoveToCommand_Execute_
-  commentId: Overload:BOOSEapp.MoveToCommand.Execute
-  isSpec: "True"
-  fullName: BOOSEapp.MoveToCommand.Execute
-  nameWithType: MoveToCommand.Execute
-- uid: BOOSEapp.MoveToCommand.Set(BOOSE.StoredProgram,System.String)
-  name: Set(StoredProgram, string)
-  href: api/BOOSEapp.MoveToCommand.html#BOOSEapp_MoveToCommand_Set_BOOSE_StoredProgram_System_String_
-  commentId: M:BOOSEapp.MoveToCommand.Set(BOOSE.StoredProgram,System.String)
-  name.vb: Set(StoredProgram, String)
-  fullName: BOOSEapp.MoveToCommand.Set(BOOSE.StoredProgram, string)
-  fullName.vb: BOOSEapp.MoveToCommand.Set(BOOSE.StoredProgram, String)
-  nameWithType: MoveToCommand.Set(StoredProgram, string)
-  nameWithType.vb: MoveToCommand.Set(StoredProgram, String)
-- uid: BOOSEapp.MoveToCommand.Set*
-  name: Set
-  href: api/BOOSEapp.MoveToCommand.html#BOOSEapp_MoveToCommand_Set_
-  commentId: Overload:BOOSEapp.MoveToCommand.Set
-  isSpec: "True"
-  fullName: BOOSEapp.MoveToCommand.Set
-  nameWithType: MoveToCommand.Set
 - uid: BOOSEapp.MyCommandFactory
   name: MyCommandFactory
   href: api/BOOSEapp.MyCommandFactory.html
@@ -1730,9 +1647,6 @@ references:
   isSpec: "True"
   fullName: BOOSEapp.commands.RectCommand.Set
   nameWithType: RectCommand.Set
-- uid: api
-  name: API Documentation
-  href: api/index.html
 - uid: home
   name: Abdullah's Custom BOOSE Documentation
   href: index.html

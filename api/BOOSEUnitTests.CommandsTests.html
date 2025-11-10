@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CommandsTests | MyBOOSEDocs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CommandsTests | MyBOOSEDocs ">
+      
+      <meta name="description" content="Unit tests for individual command classes to verify successful execution and parameters are handled properly">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/new/main/apiSpec/new?filename=BOOSEUnitTests_CommandsTests.md&amp;value=---%0Auid%3A%20BOOSEUnitTests.CommandsTests%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="MyBOOSEDocs">
+            MyBOOSEDocs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="BOOSEUnitTests.CommandsTests">
+
+
+
+  <h1 id="BOOSEUnitTests_CommandsTests" data-uid="BOOSEUnitTests.CommandsTests" class="text-break">
+Class CommandsTests  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="BOOSEUnitTests.html">BOOSEUnitTests</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>BOOSEUnitTests.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Unit tests for individual command classes to verify successful execution and parameters are handled properly</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestClass]
+public class CommandsTests</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CommandsTests</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="BOOSEUnitTests_CommandsTests_CircleCommand_InvalidRadius_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.CircleCommand_InvalidRadius_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_CircleCommand_InvalidRadius_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.CircleCommand_InvalidRadius_ThrowsException">
+  CircleCommand_InvalidRadius_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the CircleCommand throws CommandException when invalid radius is provided
+Verifies proper error handling for non-numeric radius values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void CircleCommand_InvalidRadius_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_CircleCommand_NegativeRadius_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.CircleCommand_NegativeRadius_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_CircleCommand_NegativeRadius_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.CircleCommand_NegativeRadius_ThrowsException">
+  CircleCommand_NegativeRadius_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the CircleCommand throws CommandException when negative radius is provided
+Verifies proper error handling for negative radius values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void CircleCommand_NegativeRadius_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_CircleCommand_TooManyParameters_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.CircleCommand_TooManyParameters_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_CircleCommand_TooManyParameters_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.CircleCommand_TooManyParameters_ThrowsException">
+  CircleCommand_TooManyParameters_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the CircleCommand throws CommandException when too many parameters are given
+Verifies the command accepts only one parameter for radius</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void CircleCommand_TooManyParameters_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_CircleCommand_ValidRadius_ExecuteSuccessfully_" data-uid="BOOSEUnitTests.CommandsTests.CircleCommand_ValidRadius_ExecuteSuccessfully*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_CircleCommand_ValidRadius_ExecuteSuccessfully" data-uid="BOOSEUnitTests.CommandsTests.CircleCommand_ValidRadius_ExecuteSuccessfully">
+  CircleCommand_ValidRadius_ExecuteSuccessfully()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the CircleCommand executes successfully when a valid positive radius is provided
+Verifies circles are drawn with proper radius values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void CircleCommand_ValidRadius_ExecuteSuccessfully()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_CircleCommand_ZeroRadius_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.CircleCommand_ZeroRadius_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_CircleCommand_ZeroRadius_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.CircleCommand_ZeroRadius_ThrowsException">
+  CircleCommand_ZeroRadius_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the CircleCommand throws CommandException when zero radius is provided
+Verifies that circles must have positive non-Zero radius value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void CircleCommand_ZeroRadius_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_DrawToCommand_InvaludCoordinates_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.DrawToCommand_InvaludCoordinates_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_DrawToCommand_InvaludCoordinates_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.DrawToCommand_InvaludCoordinates_ThrowsException">
+  DrawToCommand_InvaludCoordinates_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L345"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that DrawToCommand throws CommandException when invalid coordinates are provided
+Verifies  proper error handlindd for non-numeric coordinate values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void DrawToCommand_InvaludCoordinates_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_DrawToCommand_MissingCoordinate_" data-uid="BOOSEUnitTests.CommandsTests.DrawToCommand_MissingCoordinate*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_DrawToCommand_MissingCoordinate" data-uid="BOOSEUnitTests.CommandsTests.DrawToCommand_MissingCoordinate">
+  DrawToCommand_MissingCoordinate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L379"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that DrawToCommand throws CommandException when missing value is provided
+Verifies the command requires exactly two coordinates</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void DrawToCommand_MissingCoordinate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_DrawToCommand_NegativeCoordinates_" data-uid="BOOSEUnitTests.CommandsTests.DrawToCommand_NegativeCoordinates*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_DrawToCommand_NegativeCoordinates" data-uid="BOOSEUnitTests.CommandsTests.DrawToCommand_NegativeCoordinates">
+  DrawToCommand_NegativeCoordinates()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L362"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that DrawToCommand throws CommandException when negative coordinates are provided
+Verifies the commmand validates against negative values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void DrawToCommand_NegativeCoordinates()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_DrawToCommand_ValidCoordinates_Executes_" data-uid="BOOSEUnitTests.CommandsTests.DrawToCommand_ValidCoordinates_Executes*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_DrawToCommand_ValidCoordinates_Executes" data-uid="BOOSEUnitTests.CommandsTests.DrawToCommand_ValidCoordinates_Executes">
+  DrawToCommand_ValidCoordinates_Executes()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that DrawToCommand executes successfully when valid parameters are provided
+Verifies lines can be drawn from current pen position to target coordinates</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void DrawToCommand_ValidCoordinates_Executes()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_MoveToCommand_InvalidCoordinates_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.MoveToCommand_InvalidCoordinates_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_MoveToCommand_InvalidCoordinates_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.MoveToCommand_InvalidCoordinates_ThrowsException">
+  MoveToCommand_InvalidCoordinates_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests MoveToCommand when invalid coordinates are given a CommandException is thrown
+Verifies proper error handling when invalid non-numeric parameters are given</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MoveToCommand_InvalidCoordinates_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_MoveToCommand_MissingParameter_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.MoveToCommand_MissingParameter_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_MoveToCommand_MissingParameter_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.MoveToCommand_MissingParameter_ThrowsException">
+  MoveToCommand_MissingParameter_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the MoveToCommand throws a CommandException when missing parameter is given
+Verifies the command validates exactly two parameters (x and y)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MoveToCommand_MissingParameter_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_MoveToCommand_NegativeCoordinates_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.MoveToCommand_NegativeCoordinates_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_MoveToCommand_NegativeCoordinates_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.MoveToCommand_NegativeCoordinates_ThrowsException">
+  MoveToCommand_NegativeCoordinates_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests MoveToCommand throws a CommandException when negative coordinates are provided
+Verifies the command validates against negative position valuess</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MoveToCommand_NegativeCoordinates_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_MoveToCommand_TooManyParameters_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.MoveToCommand_TooManyParameters_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_MoveToCommand_TooManyParameters_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.MoveToCommand_TooManyParameters_ThrowsException">
+  MoveToCommand_TooManyParameters_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the MoveToCommand throws a CommandException when too many parameters are given
+Verifies the command validates exactly two parameters (x and y)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MoveToCommand_TooManyParameters_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_MoveToCommand_ValidCoordinates_UpdatesPosition_" data-uid="BOOSEUnitTests.CommandsTests.MoveToCommand_ValidCoordinates_UpdatesPosition*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_MoveToCommand_ValidCoordinates_UpdatesPosition" data-uid="BOOSEUnitTests.CommandsTests.MoveToCommand_ValidCoordinates_UpdatesPosition">
+  MoveToCommand_ValidCoordinates_UpdatesPosition()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the MoveToCommand correctly and updates the canvas when valid coordinates are provided
+Verifies the pen moves to the specified coordinates (x and y) position without drawing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MoveToCommand_ValidCoordinates_UpdatesPosition()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_PenColourCommand_InvalidColours_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.PenColourCommand_InvalidColours_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_PenColourCommand_InvalidColours_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.PenColourCommand_InvalidColours_ThrowsException">
+  PenColourCommand_InvalidColours_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L416"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the PenColourCommand throws CommandException when invalid or out of range values are provided
+Verifies RGB values must be positive and between 0-255</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void PenColourCommand_InvalidColours_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_PenColourCommand_MissingParameter_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.PenColourCommand_MissingParameter_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_PenColourCommand_MissingParameter_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.PenColourCommand_MissingParameter_ThrowsException">
+  PenColourCommand_MissingParameter_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L453"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the PenColourCommand throws CommandException when insufficient colour parameters are provided
+Verifies the command requires exactly three RGB values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void PenColourCommand_MissingParameter_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_PenColourCommand_MissingTwoParameters_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.PenColourCommand_MissingTwoParameters_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_PenColourCommand_MissingTwoParameters_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.PenColourCommand_MissingTwoParameters_ThrowsException">
+  PenColourCommand_MissingTwoParameters_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L470"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the PenColourCommand throws CommandException when 2 parameters are missing
+Verifies the command requires all three RGB values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void PenColourCommand_MissingTwoParameters_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_PenColourCommand_OutOfRangeColours_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.PenColourCommand_OutOfRangeColours_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_PenColourCommand_OutOfRangeColours_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.PenColourCommand_OutOfRangeColours_ThrowsException">
+  PenColourCommand_OutOfRangeColours_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L434"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the PenColourCommand throws CommandException when multiple out of range values are provided
+Verifies comprehensive RGB value Validation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void PenColourCommand_OutOfRangeColours_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_PenColourCommand_TooManyParameters_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.PenColourCommand_TooManyParameters_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_PenColourCommand_TooManyParameters_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.PenColourCommand_TooManyParameters_ThrowsException">
+  PenColourCommand_TooManyParameters_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L488"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the PenColourCommand throws CommandException when more than three parameters are provided
+Verifies the command accepts exactly three parameters</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void PenColourCommand_TooManyParameters_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_PenColourCommand_ValidColours_Executes_" data-uid="BOOSEUnitTests.CommandsTests.PenColourCommand_ValidColours_Executes*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_PenColourCommand_ValidColours_Executes" data-uid="BOOSEUnitTests.CommandsTests.PenColourCommand_ValidColours_Executes">
+  PenColourCommand_ValidColours_Executes()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L396"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the PenColourCommand executes successfully when valid RGB values are given
+Verifies pen colour can be changed with correct colour values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void PenColourCommand_ValidColours_Executes()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_RectCommand_InvalidDimensions_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.RectCommand_InvalidDimensions_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_RectCommand_InvalidDimensions_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.RectCommand_InvalidDimensions_ThrowsException">
+  RectCommand_InvalidDimensions_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that RectCommand throws CommandException when invalid dimensions are provided
+Verifies proper error handling for negative or invalid dimensions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void RectCommand_InvalidDimensions_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_RectCommand_InvalidInput_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.RectCommand_InvalidInput_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_RectCommand_InvalidInput_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.RectCommand_InvalidInput_ThrowsException">
+  RectCommand_InvalidInput_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that RectCommand throws CommandException when a non-numeric input is provided
+Verifies propeer error handling for non-numeric text based invalid parameters</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void RectCommand_InvalidInput_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_RectCommand_MissingParameter_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.RectCommand_MissingParameter_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_RectCommand_MissingParameter_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.RectCommand_MissingParameter_ThrowsException">
+  RectCommand_MissingParameter_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that RectCommand throws CommandException when insufficient parameters are provided
+Verifies the command requires exactly two parameters</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void RectCommand_MissingParameter_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_RectCommand_TooManyParameters_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.RectCommand_TooManyParameters_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_RectCommand_TooManyParameters_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.RectCommand_TooManyParameters_ThrowsException">
+  RectCommand_TooManyParameters_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that RectCommand throws CommandException when too many parameters are provided
+Verifies the command only accepts 2 dimensions (Height and Width)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void RectCommand_TooManyParameters_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_RectCommand_ValidDimensions_ExecuteSuccessfully_" data-uid="BOOSEUnitTests.CommandsTests.RectCommand_ValidDimensions_ExecuteSuccessfully*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_RectCommand_ValidDimensions_ExecuteSuccessfully" data-uid="BOOSEUnitTests.CommandsTests.RectCommand_ValidDimensions_ExecuteSuccessfully">
+  RectCommand_ValidDimensions_ExecuteSuccessfully()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the RectCommand executes successfully when valid dimensions are provided
+Verifies rectangles can be drawn with correct height and width values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void RectCommand_ValidDimensions_ExecuteSuccessfully()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSEUnitTests_CommandsTests_RectCommand_ZeroDimensions_ThrowsException_" data-uid="BOOSEUnitTests.CommandsTests.RectCommand_ZeroDimensions_ThrowsException*"></a>
+
+  <h3 id="BOOSEUnitTests_CommandsTests_RectCommand_ZeroDimensions_ThrowsException" data-uid="BOOSEUnitTests.CommandsTests.RectCommand_ZeroDimensions_ThrowsException">
+  RectCommand_ZeroDimensions_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that RectCommand throws CommandException when zero dimensions are provided
+Verifies rectangles dimensions must be positive non-Zero values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void RectCommand_ZeroDimensions_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-AAR71/blob/main/BOOSEUnitTests/CommandTest.cs/#L16" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

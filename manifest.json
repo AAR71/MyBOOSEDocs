@@ -1,0 +1,364 @@
+{
+  "source_base_path": "C:/Users/Asus/OneDrive - Leeds Beckett University/Third Year/S1 - Advanced Software Engineering/source/repos/BOOSEDocs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEUnitTests.CommandFactoryTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEUnitTests.CommandFactoryTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEUnitTests.CommandFactoryTests",
+      "Summary": "<p sourcefile=\"api/BOOSEUnitTests.CommandFactoryTests.yml\" sourcestartlinenumber=\"1\">Unit test for MyCommandFactory to verify it creates command objects based on command types correctly</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEUnitTests.CommandsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEUnitTests.CommandsTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEUnitTests.CommandsTests",
+      "Summary": "<p sourcefile=\"api/BOOSEUnitTests.CommandsTests.yml\" sourcestartlinenumber=\"1\">Unit tests for individual command classes to verify successful execution and parameters are handled properly</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEUnitTests.IntegrationTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEUnitTests.IntegrationTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEUnitTests.IntegrationTests",
+      "Summary": "<p sourcefile=\"api/BOOSEUnitTests.IntegrationTests.yml\" sourcestartlinenumber=\"1\">Integration tests to verify multiple components work together correctly in complete system workflows</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEUnitTests.ParserTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEUnitTests.ParserTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEUnitTests.ParserTests",
+      "Summary": "<p sourcefile=\"api/BOOSEUnitTests.ParserTests.yml\" sourcestartlinenumber=\"1\">Unit tests for MyParser to verify it correctly pares the program text into executable commands</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEUnitTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEUnitTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCanvas",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCanvas.yml\" sourcestartlinenumber=\"1\">Implements the BOOSE ICanvas interface for drawing operations\nHandles all graphic operations like drawing shapes, lines, and managing colours\nThis is the actual canvas that the BOOSE system uses for rendering</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.CommandException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.CommandException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.CommandException",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.CommandException.yml\" sourcestartlinenumber=\"1\">Custom exceprion for command related errors in the custom BOOSE interpreter\nUsed when commands have problems with parameters or execution</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.Form1",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.Form1.yml\" sourcestartlinenumber=\"1\">Main application window for the BOOSE drawing interpreter\nHandles UI, user input, and coordinates between parser and canvas</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.ICommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.ICommandHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.ICommandHandler",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.ICommandHandler.yml\" sourcestartlinenumber=\"1\">Interface all command classes must implement\nDefines the basic structre for every drawing command</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.MoveToCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.MoveToCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.MoveToCommand",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.MoveToCommand.yml\" sourcestartlinenumber=\"1\">Handles the moveto command, it moves the cursor wuthout drawing anything\nUsage: moveto 200,100</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.MyCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.MyCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.MyCommandFactory",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.MyCommandFactory.yml\" sourcestartlinenumber=\"1\">Creates command objects based on command names\nThis is the &quot;command creator&quot; is knows how to make each type of command</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.MyParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.MyParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.MyParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.MyStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.MyStoredProgram.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.MyStoredProgram",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.MyStoredProgram.yml\" sourcestartlinenumber=\"1\">Custom program storage that holds and executes drawing commands\nThis is where all the commands live before they get executed</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.commands.CircleCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.commands.CircleCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.commands.CircleCommand",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.commands.CircleCommand.yml\" sourcestartlinenumber=\"1\">Handles the circle command - It draws a circle at current position\nUsage: circle 50</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.commands.DrawToCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.commands.DrawToCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.commands.DrawToCommand",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.commands.DrawToCommand.yml\" sourcestartlinenumber=\"1\">Handles the drawto command - draws a line from current position to a new position\nUsage: drawto 110,150</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.commands.PenColourCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.commands.PenColourCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.commands.PenColourCommand",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.commands.PenColourCommand.yml\" sourcestartlinenumber=\"1\">Handles the pen command - changes the pen colour\nUsage: pen 255,0,0 (for Red colour)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.commands.RectCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.commands.RectCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.commands.RectCommand",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.commands.RectCommand.yml\" sourcestartlinenumber=\"1\">Handles the rect command - draws a rectangle at current position\nUsage: rect 50,100</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.commands.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.commands",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp",
+      "Summary": null
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
